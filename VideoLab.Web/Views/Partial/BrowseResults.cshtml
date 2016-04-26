@@ -1,0 +1,25 @@
+﻿@model IEnumerable<VideoLab.Repository.Models.VideoLabVideo>
+
+The videos for your search:
+
+<div id="content">
+    <div class="container">
+
+        <section>
+            <div class="row services">
+                <div class="col-md-4">
+                    @foreach (var video in Model)
+                    {
+                        <div class="box-simple">
+                            <div class="image">
+                                <img src=@video.VideoImageUrl alt="" class="img-responsive" />
+                            </div>
+                            <h3>@video.Title</h3>
+                            <p>@video.Description</p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </section>
+    </div>
+</div>

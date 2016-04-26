@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoLab.Repository", "VideoLab.Repository\VideoLab.Repository.csproj", "{A246EA37-0A72-4047-B987-C5B97373485A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoLab.Repository.UnitTests", "VideoLab.Repository.UnitTests\VideoLab.Repository.UnitTests.csproj", "{F95FB134-E40E-4B2F-83F1-0742D2F1F59F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoLab.Repository.IntegrationTests", "VideoLab.Repository.IntegrationTests\VideoLab.Repository.IntegrationTests.csproj", "{0D761D09-DEE4-4659-94C5-F307366D5ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoLab.Repository.StructureMap", "VideoLab.Repository.StructureMap\VideoLab.Repository.StructureMap.csproj", "{C2649710-D2FB-4986-99C3-6FA9E6381D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoLab.Repository.StructureMap.Tests", "VideoLab.Repository.StructureMap.Tests\VideoLab.Repository.StructureMap.Tests.csproj", "{114D34C9-672E-4FEE-9EBE-8AD238693432}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoLab.Web", "..\VideoLab.Web\VideoLab.Web.csproj", "{3D67E1C0-7806-4CE9-91D0-2DF07782F7FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A246EA37-0A72-4047-B987-C5B97373485A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A246EA37-0A72-4047-B987-C5B97373485A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A246EA37-0A72-4047-B987-C5B97373485A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A246EA37-0A72-4047-B987-C5B97373485A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F95FB134-E40E-4B2F-83F1-0742D2F1F59F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95FB134-E40E-4B2F-83F1-0742D2F1F59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95FB134-E40E-4B2F-83F1-0742D2F1F59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95FB134-E40E-4B2F-83F1-0742D2F1F59F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D761D09-DEE4-4659-94C5-F307366D5ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D761D09-DEE4-4659-94C5-F307366D5ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D761D09-DEE4-4659-94C5-F307366D5ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D761D09-DEE4-4659-94C5-F307366D5ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2649710-D2FB-4986-99C3-6FA9E6381D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2649710-D2FB-4986-99C3-6FA9E6381D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2649710-D2FB-4986-99C3-6FA9E6381D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2649710-D2FB-4986-99C3-6FA9E6381D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114D34C9-672E-4FEE-9EBE-8AD238693432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114D34C9-672E-4FEE-9EBE-8AD238693432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114D34C9-672E-4FEE-9EBE-8AD238693432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114D34C9-672E-4FEE-9EBE-8AD238693432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D67E1C0-7806-4CE9-91D0-2DF07782F7FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D67E1C0-7806-4CE9-91D0-2DF07782F7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D67E1C0-7806-4CE9-91D0-2DF07782F7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D67E1C0-7806-4CE9-91D0-2DF07782F7FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

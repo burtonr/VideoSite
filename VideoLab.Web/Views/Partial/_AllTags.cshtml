@@ -1,0 +1,17 @@
+﻿@model IEnumerable<string>
+
+<h3>All Available Tags</h3>
+
+<div class="container-fluid" text-center>
+    <div class="col-md-8">
+        <h5>A list of all available tags will show up here.</h5>
+        It will look something like this:
+
+        <ul class="pager">
+            @foreach (var tag in Model)
+            {
+                <li><a href="#">@tag</a></li>
+            }
+        </ul>
+    </div>
+</div>

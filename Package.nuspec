@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Package</id>
+    <version>1.0.0</version>
+    <authors>Burton</authors>
+    <owners>Burton</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>VideoLab Repository</description>
+    <copyright>Copyright 2016</copyright>
+  </metadata>
+</package>

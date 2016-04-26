@@ -1,0 +1,18 @@
+﻿@model IList<String>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Results</h2>
+
+@foreach (var thing in Model)
+{
+    <h3>@thing</h3>
+}
+<br/>
+<br/>
+@{
+    Html.RenderAction("BrowseResult");
+}
+

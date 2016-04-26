@@ -1,0 +1,13 @@
+﻿# Video Lab
+
+## Initial Setup
+These settings are required if you are going to call into the YouTube service:
+
+* Right-click the "VideoLab.Repository" solution and select "Properties"
+* Go to the "Settings"
+	* Add a setting called: "YouTubeApiKey"
+	* Set the Scope to "Application"
+		* Add your API Key from Youtube
+	* Add a setting called: "YouTubeApplicationName"
+	* Set the Scope to "Application"
+		* Add your Application Name from YouTube
